@@ -1,0 +1,589 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+body {
+  background-color: #1e1e1e !important;
+  overflow-x: hidden;
+}
+
+/* ------------------ Main Page Start ---------------- */
+
+.main {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
+    url(images/NeftlixBackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.backgroundEffect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 700px;
+  background: rgb(0 0 0 / 40%);
+}
+
+/* ---HEADER START---  */
+
+nav .wrapper {
+  padding: 5px 10rem;
+}
+
+nav .logo {
+  width: 160px;
+}
+
+.language select:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.language i {
+  font-size: 12px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: white;
+  font-size: 1rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+nav .signIn a {
+  background-color: #e50914;
+  border-radius: 4px;
+  padding: 6px 18px !important;
+  color: aliceblue;
+  font-size: small;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+nav .signIn a:hover {
+  box-shadow: 0px 0px 20px 100px inset rgb(0 0 0 / 20%);
+}
+
+/* ---HEADER START---  */
+
+/* --- MAİN CONTENT START --- */
+
+.main-heading {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 3rem;
+  height: 500px;
+}
+
+.main-heading h1,
+p {
+  margin: 10px;
+}
+
+.main-heading h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.main-heading p {
+  font-size: 24px;
+}
+
+.main-heading h3 {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.headinput {
+  height: 60px;
+}
+
+.headinput input {
+  min-width: 420px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.headinput input:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.headinput input::placeholder {
+  color: #ebe6e6d0;
+  font-weight: semibold;
+}
+
+.headinput button {
+  padding: 10px 30px 10px 20px;
+  background: rgb(229, 9, 20);
+  transition: all .3s;
+}
+
+.headinput button:hover {
+  box-shadow: 0px 0px 20px 100px inset rgb(0 0 0 / 20%);
+}
+
+/* --- MAİN CONTENT FİNİSH --- */
+
+/* ------------------ Main Page Finish ---------------- */
+
+
+/* ------ CONTENTS START ------ */
+
+
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: rgba(112, 109, 109, 0.426);
+}
+
+.part {
+  max-width: calc(83% - 6rem) !important;
+  height: 550px;
+  margin: auto !important;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.contentBox {
+  background: black;
+
+}
+
+.contentBox h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+.contentBox h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* ----   PART 1  ---- */
+
+.contentBox .video1 {
+  top: 21%;
+  left: 13%;
+  max-width: 85%;
+  max-height: 54%;
+  height: auto;
+  width: 100%;
+}
+
+/* ----   PART 2  ---- */
+
+.contentBox .StrangerBox {
+  width: 400px;
+  height: 400px;
+}
+
+.contentBox .StrangerBox .StrangerPhone {
+  left: -80px;
+  width: 500px;
+}
+
+.contentBox .StrangerBox .Strangerimg {
+  width: 280px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+/* ----   PART 3  ---- */
+
+.contentBox .video2 {
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+}
+
+.contentBox .video55 {
+  width: 100%;
+}
+
+/* ------ CONTENTS FİNİSH ------ */
+
+
+/* ACCORDİON START  */
+.faq-accordion {
+  padding: 0 10rem;
+}
+
+.faq-accordion h1 {
+  font-size: 48px;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-border-width: none !important;
+}
+
+.accordion-button {
+  background-color: rgb(45, 45, 45) !important;
+  border: 0 !important;
+  font-size: 24px !important;
+  padding: 1.4rem 1.5rem !important;
+}
+
+.accordion-button:hover {
+  background-color: rgba(255, 255, 255, 0.250) !important;
+}
+
+.accordion-button i {
+  font-size: 2.25rem;
+}
+
+.accordion-body {
+  margin-top: 1px;
+  background: rgb(45, 45, 45);
+}
+
+.iconrotate {
+  transform: rotate(45deg);
+}
+
+.accordion-body p {
+  line-height: 28px !important;
+  margin-left: 0;
+  font-size: 24px;
+}
+
+.accordion-button:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+
+/* ACCORDİON FİNİSH  */
+
+/* İNPUT START */
+
+.singUp p {
+  padding: 0 1rem;
+}
+
+.bottominput input {
+  max-width: 420px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.bottominput input:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.bottominput input::placeholder {
+  color: #ebe6e6d0;
+  font-weight: semibold;
+}
+
+.bottominput button {
+  padding: 10px 30px 10px 20px;
+  background: rgb(229, 9, 20);
+  transition: all .3s;
+}
+
+.bottominput button:hover {
+  box-shadow: 0px 0px 20px 100px inset rgb(0 0 0 / 20%);
+}
+
+/* İNPUT END */
+
+/* FOOTER START  */
+
+.footer {
+  color: rgb(179, 179, 179);
+  padding: 0 12rem;
+}
+
+.footerBox li {
+  list-style-type: none;
+  padding-bottom: 8px;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottomLanguageDown {
+  left: 100px;
+}
+
+/* FOOTER FİNİSH  */
+
+/* -----------------------------MEDİA START---------------------------------- */
+
+@media screen and (max-width:1280px) {
+
+  .navbar .wrapper {
+    padding: 5px 2rem;
+  }
+
+  .part {
+    max-width: 96% !important;
+  }
+
+  .footer {
+    padding: 0 3rem;
+  }
+
+  .faq-accordion {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .main {
+    height: 500px;
+  }
+  .backgroundEffect {
+    height: 500px;
+  }
+  .navbar .wrapper {
+    margin-top: .5rem;
+  }
+
+  nav .logo {
+    width: 100px;
+  }
+
+  /* NAVBAR END */
+  /* MAİN HEADİNG START  */
+  .main-heading h1 {
+    font-size: 32px;
+  }
+
+  .main-heading p {
+    font-size: 18px;
+  }
+
+  .main-heading h3 {
+    font-size: 18px;
+  }
+
+
+  /* MAİN HEADİNG END  */
+
+  /* CONTENT START */
+  .contentBox h1 {
+    font-size: 32px;
+  }
+
+  .contentBox h3 {
+    font-size: 18px;
+  }
+
+  .part {
+    height: 720px;
+  }
+
+  .singUp p {
+    font-size: 18px;
+  }
+
+
+  /* ----   PART 1  ---- */
+
+  .HuntingHillContainer {
+    max-width: 600px !important;
+    margin: auto;
+  }
+
+  /* ----   PART 2  ---- */
+
+  .contentBox .StrangerBox {
+    width: 320px;
+  }
+
+  .contentBox .StrangerBox .StrangerPhone {
+    left: -80px;
+    width: 500px;
+
+  }
+
+  .contentBox .StrangerBox .Strangerimg {
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+  }
+
+  /* ----   PART 3  ---- */
+
+  .contentBox .allinOneimg {
+    width: 100%;
+  }
+
+  .allinOneContainer {
+    max-width: 600px !important;
+    margin: auto;
+  }
+
+  /* ----   PART 4  ---- */
+
+  .childimg {
+    max-width: 640px !important;
+    margin: auto;
+  }
+
+  /* CONTENT END */
+
+  /* ACCORDİON - SİGNUP  START */
+  .faq-accordion h1 {
+    font-size: 32px;
+  }
+
+  .accordion-button {
+    font-size: 18px !important;
+  }
+
+  .accordion-button i {
+    font-size: 1.5rem;
+  }
+
+  .accordion-body p {
+    line-height: 22px !important;
+    font-size: 18px;
+  }
+
+  /* ACCORDİON - SİGNUP  END */
+
+}
+
+@media screen and (max-width:768px) {
+  .main {
+    min-height: 500px;
+    height: 100% !important;
+    width: 100%;
+    margin-bottom: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
+      url(images/NeftlixBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+  
+  .headinput,
+  .bottominput {
+    padding: 0 2rem;
+  }
+
+  .headinput input,
+  .bottominput input {
+    margin: auto;
+    max-width: 100%;
+    padding: .8rem;
+  }
+
+  .headinput button,
+  .bottominput button {
+    width: 160px !important;
+    font-size: 1rem !important;
+    padding: .9rem 2rem !important;
+    margin: auto;
+
+  }
+
+
+}
+
+@media screen and (max-width:460px) {
+
+  .content h1{
+    margin-top: 2rem !important;
+  }
+  
+  nav .wrapper {
+    padding: 5px .3rem !important;
+  }
+  .navbar .language svg {
+    display: none;
+  }
+  .navbar .language i {
+    right: -10px !important;
+  }
+  .navbar .language select {
+    width: 5rem;
+  }
+
+  .main-heading{
+    padding: 2rem 1rem;
+  }
+  .headinput input{
+    margin: auto;
+    max-width: 50%;
+    min-width: 300px !important;
+    padding: .8rem;
+  }
+  .bottominput{
+    padding: .9rem 0rem !important;
+  }
+
+  .part{
+    padding: 0;
+    height: 550px;
+  }
+  .contentBox .StrangerBox {
+    max-width: 250px !important;
+    height: 300px;
+    margin: auto;
+  }
+  
+  .contentBox .StrangerBox .StrangerPhone {
+    left: -60px;
+    width: 150% !important;
+  }
+  
+  .contentBox .StrangerBox .Strangerimg {
+    width: 100% !important;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+  
+}
